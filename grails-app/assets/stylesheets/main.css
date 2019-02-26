@@ -1,0 +1,102 @@
+ul {
+	padding-left: 13px;
+}
+
+#content {
+	
+}
+
+#login-form {
+	margin: auto;
+	width: 400px;
+	height: auto;
+	background-color: #f0f0f0;
+	padding: 20px;
+	border: 1px solid #c2c2c2;
+}
+
+#login-error {
+	background-color: darkred;
+	color: white;
+	clear: both;
+	padding: 10px;
+	display: none;
+}
+
+#logout-ok {
+	background-color: green;
+	color: white;
+	clear: both;
+	padding: 10px;
+	display: none;
+}
+
+.setting-change-success {
+	background-color: green;
+}
+
+.setting-change-error {
+	background-color: red;
+}
+
+.setting-container, .user-setting-container {
+	margin-bottom: 10px;
+}
+
+.setting-label, .user-setting-label {
+	display: inline-block;
+	width: 400px;
+}
+
+.notification-element {
+	padding: 20px;
+	display: none;
+	color: white;
+}
+
+.notification-element {
+	cursor: pointer;
+}
+
+.user-container {
+	margin-bottom: 10px;
+}
+
+.user-container-content {
+	display: none;
+	padding: 20px;
+	border: 1px solid #007fff;
+	margin-bottom: 20px;
+	background-color: #f0f0f0;
+}
+
+.new .user-container-content {
+	border: 1px solid green;
+}
+
+.user-container-header {
+	background-color: #007fff;
+	padding: 10px;
+	color: white;
+}
+
+.user-container-header:hover {
+	cursor: pointer;
+	background-color: #0058b0;
+}
+
+.user-organization {
+	margin: 0;
+}
+
+.new .user-container-header {
+	background-color: green;
+}
+
+.new .user-container-header:hover {
+	background-color: #006600;
+}
+
+.users-container {
+	margin-top: 20px;
+}
